@@ -1,4 +1,39 @@
-GreenScan AI is a Python based tool designed to analyze the environmental impact of websites and help developers build more sustainable web applications. The project focuses on estimating website carbon emissions by analyzing page size, media usage and structural elements, while also providing practical optimization suggestions to reduce unnecessary energy consumption.
-Unlike common online carbon calculators that only provide single page estimates, GreenScan AI supports multi page website analysis. It crawls internal links, extracts media assets (especially images) and evaluates how design choices such as large decorative images and inefficient loading strategies contribute to higher carbon emissions. The system uses rule based image classification to distinguish between essential and decorative images and estimates emissions based on data transfer size and assumed user traffic.
-To make the analysis actionable, GreenScan AI integrates an NLP based recommendation engine that inspects HTML structure and suggests improvements such as image compression, lazy loading, optimized formats and removal of redundant resources. The results are presented through visual charts and automatically generated PDF reports, making it easy to understand the sustainability impact before and after optimization.
-The project is intended for students, developers, and researchers interested in green computing, sustainable web design and explainable AI. While the current version relies on heuristic based image analysis, the architecture is designed to support future enhancements such as CNN based image classification, real time traffic analysis and automated optimization.
+#Greenscan AI
+GreenScan AI is a website sustainability analyzer designed to measure and reduce the environmental impact of websites. It estimates carbon emissions based on page size, media usage and site structure and provides actionable recommendations to help developers build energy efficient and eco friendly web applications.Greenscan AI is a website sustainability analyzer designed to measure and reduce the environmental impact of  websites. It estimates carbon emissions based on page size, media usage and site structure and provides actionable recommendations to help developers build energy efficient and eco friendly web applications.
+The system goes beyond basic carbon calculators by supporting multi page analysis, image impact evaluation and visual sustainability reporting.
+
+##📌Features
+**Multi Page Website Crawling** – Scans internal links and analyzes complete websites instead of a single page.
+**Image Impact Analysis** – Classifies images as essential or decorative using rule based heuristics.
+**Carbon Emission Estimation** – Estimates monthly CO₂ emissions based on page size and traffic assumptions.
+**NLP Driven Optimization Suggestions** – Analyzes HTML structure to recommend image compression, lazy loading and removal of redundant assets.
+**Before vs After Optimization Comparison** – Shows emission reduction after applying suggested improvements.
+**Visual Reports** – Generates charts and downloadable PDF reports for easy interpretation.
+
+##🛠 System Requirements
+Standard desktop or laptop system
+Minimum 8 GB RAM recommended
+Internet connection for website crawling
+
+##💻 Software & Libraries
+**Python 3.10+**
+**BeautifulSoup** – HTML parsing and crawling
+**Requests** – Website content fetching
+**Matplotlib** – Data visualization
+**FPDF** – PDF report generation
+**NLP** techniques for HTML structure analysis
+
+##🔄 Workflow Overview
+1.Input a website URL
+2.Crawl internal pages and extract media assets
+3.Classify images and calculate total page weight
+4.Estimate monthly carbon emissions
+5.Generate optimization suggestions using NLP
+6.Produce visual charts and a sustainability report
+
+##📊 Output
+Carbon emission estimates (before & after optimization)
+Image classification breakdown
+Page size analysis
+Optimization recommendations
+Downloadable PDF sustainability report
