@@ -33,16 +33,16 @@ The system goes beyond basic carbon calculators by supporting multi page analysi
 
 
 ## 🔄 Workflow Overview
-- 1.Input a website URL
-- 2.Crawl internal pages and extract media assets
-- 3.Classify images and calculate total page weight
-- 4.Estimate monthly carbon emissions
-- 5.Generate optimization suggestions using NLP
-- 6.Produce visual charts and a sustainability report
+1. Input a website URL
+2. Crawl internal pages and extract media assets
+3. Classify images and calculate total page weight
+4. Estimate monthly carbon emissions
+5. Generate optimization suggestions using NLP
+6. Produce visual charts and a sustainability report
 
 ## 📊 Output
-Carbon emission estimates (before & after optimization)
-Image classification breakdown
-Page size analysis
-Optimization recommendations
-Downloadable PDF sustainability report
+- Carbon emission estimates (before & after optimization)
+- Image classification breakdown
+- Page size analysis
+- Optimization recommendations
+- Downloadable PDF sustainability report
