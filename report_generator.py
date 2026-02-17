@@ -47,7 +47,7 @@ def generate_pdf_report(filename, url, total_images, page_size_kb, carbon, class
         f"AI-based suggestions are provided for improving sustainability."
     ))
     pdf.ln(10)
-    pdf.cell(0, 10, sanitize_text("Prepared using GreenScan AI - Developed by Manoj D S & Aruneswar Meera S"), ln=True, align='C')
+    pdf.cell(0, 10, sanitize_text("Prepared using GreenScan AI - Developed by Manoj D S "), ln=True, align='C')
 
     # 2️⃣ Summary Page
     pdf.add_page()
@@ -96,3 +96,4 @@ def generate_pdf_report(filename, url, total_images, page_size_kb, carbon, class
 
     # ✅ Save the PDF
     pdf.output(filename)
+
