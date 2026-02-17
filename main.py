@@ -59,7 +59,7 @@ def run_greenscan(base_url):
 
     # Crawl internal links
     print("[+] Crawling internal pages...")
-    internal_links = extract_internal_links(base_url, max_links=4)
+    internal_links = extract_internal_links(base_url, max_links=None)
     if base_url not in internal_links:
         internal_links.insert(0, base_url)
     print(f"[✓] Found {len(internal_links)} pages to scan.")
@@ -174,3 +174,4 @@ def run_greenscan(base_url):
 if __name__ == "__main__":
     base_url = input("Enter website URL: ").strip()
     run_greenscan(base_url)
+
