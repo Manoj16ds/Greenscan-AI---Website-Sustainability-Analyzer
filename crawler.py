@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
     
-# ✅ Extracts internal links (up to max_links)
+#  Extracts internal links (up to max_links)
 def extract_internal_links(base_url, max_links=None     ):
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
@@ -33,7 +33,7 @@ def extract_internal_links(base_url, max_links=None     ):
         print(f"[!] Failed to extract internal links: {e}")
         return []
 
-# ✅ Image URL extractor (your proven working version)
+#  Image URL extractor (your proven working version)
 def extract_image_urls(url):
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
