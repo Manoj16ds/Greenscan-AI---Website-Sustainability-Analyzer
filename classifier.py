@@ -35,7 +35,7 @@ def classify_images(image_paths):
         essential = sorted_by_size[:cutoff]
         decorative = sorted_by_size[cutoff:]
 
-    # ✅ Save copies instead of moves
+    #  Save copies instead of moves
     os.makedirs("images/essential", exist_ok=True)
     os.makedirs("images/decorative", exist_ok=True)
 
