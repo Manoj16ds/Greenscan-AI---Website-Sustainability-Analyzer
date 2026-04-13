@@ -41,7 +41,7 @@ def print_report(url, pages_scanned, total_images, page_size, carbon,
     print("=" * 60)
 
 
-# ✅ Function version for Streamlit
+#  Function version for Streamlit
 def run_greenscan(base_url):
     """
     Executes full GreenScan pipeline for a given URL and returns summary results.
@@ -49,7 +49,7 @@ def run_greenscan(base_url):
 
     results_summary = {}
 
-    print("\n🔍 GreenScan AI - Multi-page Eco Analyzer\n")
+    print("\n GreenScan AI - Multi-page Eco Analyzer\n")
     print(f"[+] Checking accessibility for {base_url}...")
 
     if not is_website_accessible(base_url):
@@ -153,7 +153,7 @@ def run_greenscan(base_url):
     except Exception as e:
         print(f"[!] Chart generation failed: {e}")
 
-    # ✅ Return results for Streamlit interface
+    #  Return results for Streamlit interface
     results_summary = {
         "url": base_url,
         "pages_scanned": len(internal_links),
