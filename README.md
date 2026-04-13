@@ -6,7 +6,7 @@ The system goes beyond basic carbon calculators by supporting multi page analysi
 
 
 
-## 📌Features
+## Features
 - **Multi Page Website Crawling** – Scans internal links and analyzes complete websites instead of a single page.
 - **Image Impact Analysis** – Classifies images as essential or decorative using rule based heuristics.
 - **Carbon Emission Estimation** – Estimates monthly CO₂ emissions based on page size and traffic assumptions.
@@ -16,12 +16,12 @@ The system goes beyond basic carbon calculators by supporting multi page analysi
 
 
 
-## 🛠 System Requirements
+##  System Requirements
 - Standard desktop or laptop system
 - Minimum 8 GB RAM recommended
 - Internet connection for website crawling
 
-## 💻 Software & Libraries
+##  Software & Libraries
 - **Python 3.10+**
 - **BeautifulSoup** – HTML parsing and crawling
 - **Requests** – Website content fetching
@@ -32,7 +32,7 @@ The system goes beyond basic carbon calculators by supporting multi page analysi
 
 
 
-## 🔄 Workflow Overview
+##  Workflow Overview
 1. Input a website URL
 2. Crawl internal pages and extract media assets
 3. Classify images and calculate total page weight
@@ -40,7 +40,7 @@ The system goes beyond basic carbon calculators by supporting multi page analysi
 5. Generate optimization suggestions using NLP
 6. Produce visual charts and a sustainability report
 
-## 📊 Output
+##  Output
 - Carbon emission estimates (before & after optimization)
 - Image classification breakdown
 - Page size analysis
